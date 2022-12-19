@@ -1,0 +1,19 @@
+.container{
+    border: 2px solid red;
+}
+
+.row{
+    border: 2px solid green;
+}
+
+.col,.col-,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,.col-sm-3{
+    border: 2px solid rgb(181, 181, 255);
+}
+
+.align-base1 {
+    font-size: 0.88rem;
+}
+
+.align-base2 {
+    font-size: 0.74rem;
+}
