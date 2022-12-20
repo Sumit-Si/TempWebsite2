@@ -1,13 +1,26 @@
+
+body,html{
+    overflow-x: hidden;
+}
+
+:root {
+    --violet-color: #6442c2;
+}
+
 .container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
+}
+
+.container-fluid {
+    /* border: 2px solid rgb(255, 97, 255); */
 }
 
 .row{
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .col,.col-,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,.col-sm-3{
-    border: 2px solid rgb(181, 181, 255);
+    /* border: 2px solid rgb(181, 181, 255); */
 }
 
 .align-base1 {
@@ -17,3 +30,79 @@
 .align-base2 {
     font-size: 0.74rem;
 }
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1.2em;
+}
+
+/* Choose Section  */
+#ChooseSection {
+    /* border: 2px solid black; */
+    
+}
+
+.chooseCard {
+    box-shadow: 0 4px 25px hsl(0, 0%, 87%);
+    border: none;
+    border-radius: 0.4em;
+    position: relative;
+}
+
+.blob1 {
+    position: absolute;
+    top: 0;
+    right: -10em;
+    z-index: -1;
+}
+
+.blob2 {
+    position: absolute;
+    bottom: -9em;
+    left: -13em;
+}
+
+@media screen and (max-width: 992px) {
+    .blob2 {
+        position: absolute;
+        bottom: -42em;
+        left: -9em;
+    }
+}
+
+@media screen and (max-width: 762px) {
+    .blob2 {
+        position: absolute;
+        bottom: -30em;
+        left: -9em;
+    }
+}
+
+@media screen and (max-width: 564px) {
+    .blob2 {
+        position: absolute;
+        bottom: -24em;
+        left: -9em;
+    }
+}
+
+
+
+
+.chooseCard .para {
+    line-height: 1.4;
+}
+
+.chooseCard .content {
+    margin-bottom: 0.8em;
+    align-items: baseline;
+    gap: 0 0.8em;
+}
+
+.chooseCard i {
+    background-color: var(--violet-color);
+    border-radius: 50%;
+    padding: 0.8em;
+    display: inline-block;   
+}
+
